@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink, Navigate, useLocation, useNavigate } from "react-router-dom";
 
 import PetsList from "../PetsList/PetsList";
 
@@ -24,7 +24,7 @@ const PetsData = () => {
     <UserPetsBody>
       <UserPetsTitleWrap>
         <UserPetsTitle>My pets:</UserPetsTitle>
-        <NavLink to={`add-pet`} state={location.pathname}>
+        <NavLink to={`/add-pet`} state={location.pathname}>
           <UserPetsNavBtn>Add Pet +</UserPetsNavBtn>
         </NavLink>
       </UserPetsTitleWrap>

@@ -23,7 +23,7 @@ import {
   userRefreshFulfilled,
   userRefreshRejected,
   refreshTokenFullfilled,
-} from "./auth-Utils";
+} from "./auth-utils";
 
 const initialState = {
   user: {
