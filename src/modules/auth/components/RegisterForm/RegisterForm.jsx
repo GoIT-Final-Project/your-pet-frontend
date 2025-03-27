@@ -260,7 +260,7 @@ const RegistrationForm = () => {
             Already have an account? <a href="/login">Login</a>
           </Text>
           <Text>
-            <a href="https://my-pet-app-8sz1.onrender.com/users/google">
+            <a href="https://your-pet-backend-g9fm.onrender.com/users/google">
               Continue with Google
             </a>
           </Text>
